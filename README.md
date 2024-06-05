@@ -44,7 +44,7 @@
 拉取镜像并启动服务
 
 ```shell
-docker run -it -d --init --restart=unless-stopped --name glm-free-api -p xxxx:8000 -e TZ=Asia/Shanghai snakeying/glm-api:V1
+docker run -it -d --init --restart=unless-stopped --name glm-api -p xxxx:8000 -e TZ=Asia/Shanghai snakeying/glm-api:V1
 ```
 ***xxxx为你选用来映射的端口，不可以被占用***
 
@@ -52,19 +52,19 @@ docker run -it -d --init --restart=unless-stopped --name glm-free-api -p xxxx:80
 查看服务实时日志
 
 ```shell
-docker logs -f glm-free-api
+docker logs -f glm-api
 ```
 
 重启服务
 
 ```shell
-docker restart glm-free-api
+docker restart glm-api
 ```
 
 停止服务
 
 ```shell
-docker stop glm-free-api
+docker stop glm-api
 ```
 
 ## 使用说明
@@ -75,7 +75,7 @@ docker stop glm-free-api
 
 ### Nginx反代优化
 
-如果您正在使用Nginx反向代理glm-free-api，请添加以下配置项优化流的输出效果，优化体验感。
+如果您正在使用Nginx反向代理glm-api，请添加以下配置项优化流的输出效果，优化体验感。
 
 ```nginx
 # 关闭代理缓冲。当设置为off时，Nginx会立即将客户端请求发送到后端服务器，并立即将从后端服务器接收到的响应发送回客户端。
