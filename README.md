@@ -25,7 +25,7 @@
 
 从 [智谱清言](https://chatglm.cn/) 获取refresh_token
 
-建议使用Chrome浏览器
+***建议使用Chrome浏览器***
 
 注册或者登录智谱清言后发起一个对话，然后F12打开开发者工具，从Application > Cookies中找到`chatglm_refresh_token`的值，copy保存下来，这将作为API KEY使用。
 
