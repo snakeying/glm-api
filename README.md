@@ -44,7 +44,7 @@
 拉取镜像并启动服务
 
 ```shell
-docker run -it -d --init --restart=unless-stopped --name glm-api -p xxxx:8000 -e TZ=Asia/Shanghai snakeying/glm-api:V1
+docker run -it -d --init --restart=unless-stopped --name glm-api -p xxxx:8000 -e TZ=Asia/Shanghai snakeying/glm-api:V2
 ```
 ***xxxx为你选用来映射的端口，不可以被占用***
 
