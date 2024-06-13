@@ -154,7 +154,7 @@ Authorization: Bearer [refresh_token]
     "created": 1711507449,
     "data": [
         {
-            "url": "https://sfile.chatglm.cn/testpath/5e56234b-34ae-593c-ba4e-3f7ba77b5768_0.png"
+            "url": "https://sfile.chatglm.cn/testpath/XXXXXXXXXXXXX.png"
         }
     ]
 }
@@ -184,7 +184,7 @@ Authorization: Bearer [refresh_token]
                 {
                     "type": "file",
                     "file_url": {
-                        "url": "https://mj101-1317487292.cos.ap-shanghai.myqcloud.com/ai/test.pdf"
+                        "url": "XXXXXXX/test.pdf"
                     }
                 },
                 {
@@ -210,7 +210,7 @@ Authorization: Bearer [refresh_token]
             "index": 0,
             "message": {
                 "role": "assistant",
-                "content": "根据文档内容，我总结如下：\n\n这是一份关于希腊罗马时期的魔法咒语和仪式的文本，包含几个魔法仪式：\n\n1. 一个涉及面包、仪式场所和特定咒语的仪式，用于使某人爱上你。\n\n2. 一个针对女神赫卡忒的召唤仪式，用来折磨某人直到她自愿来到你身边。\n\n3. 一个通过念诵爱神阿芙罗狄蒂的秘密名字，连续七天进行仪式，来赢得一个美丽女子的心。\n\n4. 一个通过燃烧没药并念诵咒语，让一个女子对你产生强烈欲望的仪式。\n\n这些仪式都带有魔法和迷信色彩，使用各种咒语和象征性行为来影响人的感情和意愿。"
+                "content": "XXXXXXX"
             },
             "finish_reason": "stop"
         }
@@ -249,7 +249,7 @@ Authorization: Bearer [refresh_token]
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": "http://1255881664.vod2.myqcloud.com/6a0cd388vodbj1255881664/7b97ce1d3270835009240537095/uSfDwh6ZpB0A.png"
+                        "url": "http://xxxxxx.png"
                     }
                 },
                 {
@@ -297,7 +297,7 @@ Authorization: Bearer [refresh_token]
 请求数据：
 ```json
 {
-    "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9..."
+    "token": "xxxxx"
 }
 ```
 
