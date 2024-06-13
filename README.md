@@ -11,7 +11,6 @@
 * [接入准备](#接入准备)
   * [多账号接入](#多账号接入)
 * [Docker部署](#Docker部署)
-* [使用说明](#使用说明)
 * [接口列表](#接口列表)
   * [Nginx反代优化](#Nginx反代优化)
   
@@ -66,10 +65,6 @@ docker restart glm-api
 ```shell
 docker stop glm-api
 ```
-
-## 使用说明
-
-支持与openai兼容的 `/v1/chat/completions` 接口，自行使用与openai或其他兼容的客户端接入接口。
 
 ## 接口列表
 
